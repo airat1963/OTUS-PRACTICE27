@@ -1,0 +1,63 @@
+.venv
+venv
+__pycache__
+*.pyc
+*.log
+*.csv
+*.parquet
+*.json
+terraform.tfvars
+*.tfstate
+*.tfstate.backup
+*.tfstate.backup.*
+*.tfplan
+.terraform
+.terraform.lock.hcl
+*.info
+.env
+variables.json
+auth.json
+authorized_key.json
+driveroutput.*
+config
+history.txt
+buf
+venvs
+!data/.gitkeep
+data/*.csv
+.temp_venv
+.cursor
+*.gz
+# Игнорировать все файлы и директории кроме текущего репозитория
+/*
+!/*/
+
+# Исключения для текущего репозитория
+!.gitignore
+!README.md
+!*/  # Разрешить все поддиректории (настройте по необходимости)
+
+# Системные файлы
+.DS_Store
+*.swp
+*.bak
+*.tmp
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/../*
+.pytest_cache/
+.cache/
+#Артефакты сборки
+dist/
+build/
+*.egg-info/
