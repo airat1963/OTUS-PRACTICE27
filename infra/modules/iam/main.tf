@@ -1,6 +1,9 @@
 resource "yandex_iam_service_account" "sa" {
   name        = var.name
   description = "Service account for Airflow management"
+  # lifecycle{
+  #   prevent_destroy = true
+  # }
 }
 
 resource "yandex_resourcemanager_folder_iam_member" "sa_roles" {

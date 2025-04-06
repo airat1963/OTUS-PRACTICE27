@@ -118,7 +118,7 @@ with DAG(
     default_args=default_args,
     description="Periodic training of fraud detection model",
     schedule_interval=timedelta(minutes=60),  # Запуск каждые 60 минут
-    start_date=datetime(2025, 3, 27),
+    start_date=datetime(2025, 4, 6),
     catchup=False,
     tags=['mlops', ],
 ) as dag:
