@@ -60,4 +60,5 @@ venv/../*
 #Артефакты сборки
 dist/
 build/
-*.egg-info/
+*.egg-info/*.tfstate*
+*.backup
